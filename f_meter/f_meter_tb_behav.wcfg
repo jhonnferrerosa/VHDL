@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="f_meter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="f_meter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="12838472727275fs"></ZoomEndTime>
+      <Cursor1Time time="1500100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/f_meter_tb/CLK_i" type="logic">
+      <obj_property name="ElementShortName">CLK_i</obj_property>
+      <obj_property name="ObjectShortName">CLK_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/RST_i" type="logic">
+      <obj_property name="ElementShortName">RST_i</obj_property>
+      <obj_property name="ObjectShortName">RST_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_OUT_i" type="logic">
+      <obj_property name="ElementShortName">F_OUT_i</obj_property>
+      <obj_property name="ObjectShortName">F_OUT_i</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/DUT/pre_out" type="logic">
+      <obj_property name="ElementShortName">pre_out</obj_property>
+      <obj_property name="ObjectShortName">pre_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/DUT/contadortiempobase" type="other">
+      <obj_property name="ElementShortName">contadortiempobase</obj_property>
+      <obj_property name="ObjectShortName">contadortiempobase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/DUT/contadorbcd" type="array">
+      <obj_property name="ElementShortName">contadorbcd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">contadorbcd[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F" type="other">
+      <obj_property name="ElementShortName">F</obj_property>
+      <obj_property name="ObjectShortName">F</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider11">
+      <obj_property name="label">salidas</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_MED_i" type="array">
+      <obj_property name="ElementShortName">F_MED_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F_MED_i[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_MED_OK_i" type="logic">
+      <obj_property name="ElementShortName">F_MED_OK_i</obj_property>
+      <obj_property name="ObjectShortName">F_MED_OK_i</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

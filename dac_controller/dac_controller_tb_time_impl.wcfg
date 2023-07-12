@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dac_controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dac_controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4270000001fs"></ZoomEndTime>
+      <Cursor1Time time="1875000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="205"></NameColumnWidth>
+      <ValueColumnWidth column_width="152"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/dac_controller_tb/CLK_i" type="logic">
+      <obj_property name="ElementShortName">CLK_i</obj_property>
+      <obj_property name="ObjectShortName">CLK_i</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/RST_i" type="logic">
+      <obj_property name="ElementShortName">RST_i</obj_property>
+      <obj_property name="ObjectShortName">RST_i</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DOUT_i" type="array">
+      <obj_property name="ElementShortName">DOUT_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DOUT_i[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DOUT_OK_i" type="logic">
+      <obj_property name="ElementShortName">DOUT_OK_i</obj_property>
+      <obj_property name="ObjectShortName">DOUT_OK_i</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DUT/registroDesplazamiento" type="array">
+      <obj_property name="ElementShortName">registroDesplazamiento[15:0]</obj_property>
+      <obj_property name="ObjectShortName">registroDesplazamiento[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/V" type="other">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/T_DOUT" type="other">
+      <obj_property name="ElementShortName">T_DOUT</obj_property>
+      <obj_property name="ObjectShortName">T_DOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DUT/miClockEnable" type="logic">
+      <obj_property name="ElementShortName">miClockEnable</obj_property>
+      <obj_property name="ObjectShortName">miClockEnable</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DUT/miSCLK" type="logic">
+      <obj_property name="ElementShortName">miSCLK</obj_property>
+      <obj_property name="ObjectShortName">miSCLK</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DUT/miSYNC" type="logic">
+      <obj_property name="ElementShortName">miSYNC</obj_property>
+      <obj_property name="ObjectShortName">miSYNC</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/SYNC_i" type="logic">
+      <obj_property name="ElementShortName">SYNC_i</obj_property>
+      <obj_property name="ObjectShortName">SYNC_i</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/SCLK_i" type="logic">
+      <obj_property name="ElementShortName">SCLK_i</obj_property>
+      <obj_property name="ObjectShortName">SCLK_i</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/DIN_i" type="logic">
+      <obj_property name="ElementShortName">DIN_i</obj_property>
+      <obj_property name="ObjectShortName">DIN_i</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/VOUT" type="other">
+      <obj_property name="ElementShortName">VOUT</obj_property>
+      <obj_property name="ObjectShortName">VOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dac_controller_tb/dac/dato_bin" type="array">
+      <obj_property name="ElementShortName">dato_bin[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_bin[11:0]</obj_property>
+   </wvobject>
+</wave_config>
